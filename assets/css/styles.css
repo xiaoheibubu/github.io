@@ -172,6 +172,10 @@ img {
 
 .header {
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
 
@@ -288,6 +292,12 @@ img {
 .home__content{
   padding-top: 3.5rem;
   align-items: center;
+}
+.home__social {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
 
 .home__social-icon {
   font-size: 1.25rem;
