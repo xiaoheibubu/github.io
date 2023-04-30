@@ -63,13 +63,7 @@ const counterSection = document.querySelector(".counter");
 const counters = document.querySelectorAll(".counter__number");
 let started = false;
 
-window.addEventListener("scroll", () => {
-  if (window.scrollY >= counterSection.offsetTop - 400) {
-    if (!started) {
-      counters.forEach((counter) => startCounter(counter));
-    }
-    started = true;
-  }
+
 });
 
 // Testimonial Swiper
