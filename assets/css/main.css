@@ -748,17 +748,6 @@ body {
   position: relative;
 }
 
-.blog__category {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-  background-color: var(--color-primary-lighten);
-  color: var(--color-primary);
-  font-weight: var(--fw-medium);
-  font-size: var(--fs-sm);
-  padding: 1rem;
-  border-radius: 3rem;
-}
 
 .blog__img {
   border-radius: var(--b-radius);
