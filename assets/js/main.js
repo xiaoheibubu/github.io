@@ -64,7 +64,7 @@ const counters = document.querySelectorAll(".counter__number");
 let started = false;
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY >= counterSection.offsetTop - 400) {
+  if (window.scrollY >= counterSection) {
     if (!started) {
       counters.forEach((counter) => startCounter(counter));
     }
