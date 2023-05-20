@@ -348,7 +348,7 @@ body {
   min-height: calc(100vh - var(--height-header));
   align-content: center;
   justify-items: center;
-  padding-top: 0rem;
+  padding-top: 5rem;
 }
 
 .home__content {
